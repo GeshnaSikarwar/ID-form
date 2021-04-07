@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>MY ID </h1>
+
+    <forms action="/search">
+        <div>
+            FIRST NAME:
+            <input type="text">
+            LAST NAME:
+            <input type="text">
+        </div>
+        <div>
+<div>
+    DOB:
+    <input type="date">
+
+</div>
+<div>
+    GENDER:
+<select>
+    GENDER:
+    <label for="gender" value="gender">select a category:</label>   
+    <option value="gender">MALE</option>
+    <option value="gender">FEMALE</option>
+
+</select>
+</div>
+<div>
+    AMOUNT CATEGORY:
+    <input type="radio" name="number" id="number">
+    <label for="number">1</label> 
+    <input type="radio" name="number" id="number">
+    <label for="number">2</label> 
+
+
+
+</div>
+<div>
+    PASSWORD:
+    <input type="password" name="password">
+
+</div>
+<div>
+    <input type="submit" value="search" action=> 
+</div>
+
+
+    </forms>
+</body>
+</html>
